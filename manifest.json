@@ -1,6 +1,6 @@
 {
   "azphalt": "0.1",
-  "id": "com.hereliesaz.generator.timecode",
+  "id": "com.hereliesaz.azphalt.timecode",
   "name": "Timecode",
   "version": "1.0.0",
   "author": "Your Name",
@@ -17,7 +17,7 @@
   "contributes": {
     "generators": [
       {
-        "id": "timecode",
+        "id": "com.hereliesaz.azphalt.timecode",
         "name": "Timecode",
         "entry": "generator"
       }
