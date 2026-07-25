@@ -20,7 +20,7 @@ jobs:
           TAG: ${{ github.event.release.tag_name }}
         run: |
           if [ -z "$AZP_PRIVATE_KEY" ]; then echo "AZP_PRIVATE_KEY not set - skipping"; exit 0; fi
-          TAG="${TAG:-$(gh release view -R "$GITHUB_REPOSITORY" --json tagName -q .tagName 2>/dev/null)}"
+          TAG="${TAG:-$(gh release view -R "$GITHUB_REPOSITORY" --json tagName -q .tagName 2>/dev/null || true)}"
           if [ -z "$TAG" ]; then echo "no release to sign"; exit 0; fi
           npm install --no-audit --no-fund @azphalt/azp
           mkdir sign && cd sign
