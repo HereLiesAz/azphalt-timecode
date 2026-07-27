@@ -4,7 +4,7 @@
   "name": "Timecode",
   "version": "1.0.0",
   "kind": "code",
-  "license": "LicenseRef-Proprietary",
+  "license": "GPL-3.0-or-later",
   "compat": ">=0.1",
   "author": "HereLiesAz",
   "runtime": "js",
