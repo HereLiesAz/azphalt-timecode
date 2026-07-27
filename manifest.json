@@ -3,10 +3,10 @@
   "id": "com.hereliesaz.azphalt.timecode",
   "name": "Timecode",
   "version": "1.0.0",
-  "author": "Your Name",
-  "license": "MIT",
-  "compat": ">=0.1",
   "kind": "code",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "author": "HereLiesAz",
   "runtime": "js",
   "entry": "code/main.js",
   "capabilities": [
